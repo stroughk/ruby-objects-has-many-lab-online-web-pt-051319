@@ -11,6 +11,10 @@ class Artist
   def self.all
     @@all
   end
+  
+  def songs 
+    @songs = []
+  end
 
   def add_song(song)
     song.artist = self
