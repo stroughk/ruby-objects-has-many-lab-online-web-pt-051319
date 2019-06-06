@@ -13,7 +13,7 @@ class Artist
   end
   
   def songs 
-    @songs = []
+    @songs = [] 
   end
 
   def add_song(song)
